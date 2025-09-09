@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "htrak-py"
+version = "0.1.0"
+description = "A simple Python-based task tracker"
+authors = ["Lily Andre"]
+license = "LGPL-2.1"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
